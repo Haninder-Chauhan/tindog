@@ -1,0 +1,183 @@
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Container Section */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Color Section */
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section*/
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-heading{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+   
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+/* Feature Section */
+
+#features{
+    position: relative; 
+}
+
+.feature-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.fa-sharp{
+   color: #ef8172;
+   margin-bottom: 1rem;
+}
+
+.fa-sharp:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-heading, .pricing-plan{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* CTA Section*/
+
+.footerLine{
+    margin: 30px auto;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+.footer-icon{
+    margin: 2% auto;
+}
+.fab{
+    margin: 0 12px;
+}
